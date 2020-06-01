@@ -1,0 +1,23 @@
+.ke-title, .ke-intro, .ke-exp {
+  margin: 2%;
+}
+
+.ke-title {
+  color: rgba(0, 0, 0, 0);
+  text-shadow: 1px 3px 0 #585858, 1px 13px 5px #aba8a8;
+  margin-bottom: 3%;
+}
+
+.ke-exp {
+  /* font-style: italic; */
+  color: rgb(19, 100, 9);
+}
+
+.tu {
+  margin: 10px;
+}
+
+#mainNav {
+  background-color: #fff ;
+}
+
