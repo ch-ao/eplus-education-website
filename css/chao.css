@@ -29,12 +29,3 @@ p {
     cursor: pointer;
     text-decoration: none !important;
 }
-
-#sticker {
-    top: 100px; /* your required value */
-    right: 0;
-    width: 200px;
-    height: 300px;
-    position: fixed;
-    border: tomato 5px solid;
-}

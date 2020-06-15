@@ -4029,6 +4029,7 @@ input[type=button].btn-block {
 }
 
 .navbar-toggler-icon {
+  background-color: darkorange;
   display: inline-block;
   width: 1.5em;
   height: 1.5em;
@@ -9986,8 +9987,10 @@ hr.light {
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
   color: #279c0a86;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #279c0a86;
+  background-color: darkblue;
 }
 
 #secondNav {
@@ -10001,7 +10004,6 @@ hr.light {
   padding: 0.75rem 0;
 }
 
-
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
@@ -10014,11 +10016,11 @@ hr.light {
     color: #fff;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+    color: black;
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #279c0a86;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
