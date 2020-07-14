@@ -96,7 +96,7 @@ const renderCurriculum = () => {
         {
             link: 'coding.html',
             img: 'https://media.giphy.com/media/d9IfL7seBexHLct75B/giphy.gif',
-            name: 'coding'
+            name: 'Coding'
         },
         {
             link: 'math.html',
