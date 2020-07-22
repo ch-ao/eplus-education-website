@@ -38,7 +38,7 @@ const renderHead = () => {
 
 const renderNavigation = () => {
     const html = `        
-    <nav class="navbar navbar-expand-lg fixed-top py-3" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top py-3 navbarCourse" id="mainNav">
         <div class="container">      
             <a href="index.html">
                 <img src="assets/img/rsz_logo.png">
@@ -171,8 +171,12 @@ const renderTeacher = () => {
             target: '#Alex'
         },
         {
-            img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Justin.png',
-            target: '#Justin'
+            img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Barbara.png',
+            target: '#Barbara'
+        },
+        {
+            img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Cindy.png',
+            target: '#Cindy'
         },
         {
             img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Jane.png',
@@ -209,15 +213,7 @@ const renderTeacher = () => {
         {
             img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/JoyceBa.png',
             target: '#JoyceBa'
-        },
-        {
-            img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Meihui.png',
-            target: '#Meihui'
-        },
-        // {
-        //     img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Happy.png',
-        //     target: '#Happy'
-        // }
+        }
     ];
 
     let html = 

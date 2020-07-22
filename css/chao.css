@@ -35,5 +35,9 @@ p {
   }
 
 .s3 {
-background-color: cadetblue;
+    background-color: cadetblue;
+}
+
+.navbarCourse {
+  background-color: #fff !important; 
 }
