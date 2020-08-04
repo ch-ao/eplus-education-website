@@ -33,6 +33,8 @@
     <link rel="stylesheet" href="css/map.css">
     <link rel="stylesheet" href="css/chao.css">
     <link rel="stylesheet" href="css/sub.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -78,7 +80,7 @@
                         <a class="nav-link js-scroll-trigger" href="index.html#gallery">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html#register">REGISTRATION</a>
+                        <a class="nav-link js-scroll-trigger" href="registration.html">REGISTRATION</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="index.html#contact">CONTACT</a>
@@ -91,6 +93,7 @@
     <!-- Video Background  -->
     <header>
         <div class="overlay"></div>
+
         <video playsinline="playsinline" poster="./assets/img/poster.jpg" autoplay="autoplay" muted="muted" loop="loop">
         <source src="https://src-eplus-education.s3-us-west-2.amazonaws.com/video/bg.mp4" type="video/mp4">
         </video>
@@ -101,25 +104,25 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 text-center">
-                    <h2 class="tt">Earnest Education</h2>
+                    <h2 class="tt" data-aos="slide-right">Earnest Education</h2>
                     <hr class="divider dark my-4" />
                     <!-- <p class="text-dark mb-4">知行教育总部设于加拿大温哥华，由资深教学理论研究者和一线教师团队创立而成。自成立以来，知行教育一直专注于中加文化与教育的交流与合作，
                         为学生及家长提供一站式出国留学、教育培训服务，致力于发掘学生的深度学习兴趣，按照学生性格特点、学习习惯量身定做成才方案，将学生送入世界知名学府的同时，
                         将学生培养成具有终生学习爱好的主动学习者。</p> -->
-                    <div class="row justify-content-center">
+                    <div class="row justify-content-center" data-aos="fade-in">
                         <div class="col-lg-10 text-center">
-                            <h5 class="text-dark mb-4">
+                            <h5 class="text-dark mb-4" data-aos="slide-left">
                                 Earnest Education is headquartered in Vancouver, Canada, and was founded by senior teaching theory researchers and a team of front-line teachers. Since its establishment, Earnest Education has been focusing on the exchange and cooperation between China and Canada in culture and education, providing students and parents with one-stop study abroad, education and training services. Tailor-made talent programs, while sending students to world-renowned institutions, train students into active learners with lifelong learning hobbies.
                             </h5> 
                         </div>
                     </div>
                     
-
                     <div class="embed-responsive embed-responsive-16by9 mt-5">
-                        <iframe class="embed-responsive-item" src="https://src-earnest-education.s3-us-west-2.amazonaws.com/videos/ss.mp4" allowfullscreen></iframe>
-                    </div>   
-                        
-                    <!-- <a class="btn btn-outline-success btn-lg p-3 m-5 js-scroll-trigger" href="#contact">Contact us</a> -->
+                        <video controls="true" class="embed-responsive-item">
+                            <source src="https://src-earnest-education.s3-us-west-2.amazonaws.com/videos/ss.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -134,7 +137,7 @@
     <!-- News  -->
     <div class="page-section" id="news">
         <div class="container">
-            <h2 class="text-center tt">LATEST NEWS</h2>
+            <h2 class="text-center tt" data-aos="slide-right">LATEST NEWS</h2>
             <hr class="divider my-4" />
 
             <div class="row justify-content-center">
@@ -153,9 +156,9 @@
     </div>
 
     <!-- Gallery  -->
-    <div class="page-section bg-light" id="gallery">
+    <div class="page-section" id="gallery">
         <div class="container">
-            <h2 class="text-center tt">GALLERY</h2>
+            <h2 class="text-center tt" data-aos="slide-right">GALLERY</h2>
             <hr class="divider my-4" />
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
@@ -201,10 +204,10 @@
     </div>
 
     <!-- Register section-->
-    <section class="page-section" id="register">
+    <!-- <section class="page-section" id="register">
         <div class="container">
-            <h2 class="text-center tt">ONLINE REGISTRATION</h2>
-            <h2 class="text-center tt">知行教育 - 在线报名表</h2>
+            <h2 class="text-center tt" data-aos="slide-right">ONLINE REGISTRATION</h2>
+            <h2 class="text-center tt" data-aos="slide-right">知行教育 - 在线报名表</h2>
             <hr class="divider my-4" />
 
             <div class="row justify-content-center mt-5">
@@ -217,31 +220,13 @@
                             </div>
                         </div>
                 
-                        <!-- EMAIL -->
                         <div class="form-group row d-flex justify-content-center">
                             <label for="email" class="col-sm-3 col-form-label"> <h5>Email 电子邮箱 *</h5> </label>
                             <div class="col-sm-4">
                             <input class="form-control" required type="email" name="email">
                             </div>
                         </div>
-                
-                        <!-- wechat -->
-                        <!-- <div class="form-group row d-flex justify-content-center">
-                            <label for="wechat" class="col-sm-2 col-form-label">Wechat 微信 (optional) </label>
-                            <div class="col-sm-4">
-                            <input class="form-control" name="wechat">
-                            </div>
-                        </div> -->
-                
-                        <!-- phone  -->
-                        <!-- <div class="form-group row d-flex justify-content-center">
-                            <label for="phone" class="col-sm-2 col-form-label">Phone 联系电话 (optional)</label>
-                            <div class="col-sm-4">
-                            <input class="form-control" name="phone">
-                            </div>
-                        </div> -->
-                
-                        <!-- Grade  -->
+            
                         <div class="form-group row d-flex justify-content-center">
                             <label for="grade" class="col-sm-3 col-form-label"> <h5>Student Grade 学生年级 *</h5>
                                 </label>
@@ -268,7 +253,6 @@
                             </div>
                         </div>
                 
-                        <!-- course 1  -->
                         <div class="form-group row d-flex justify-content-center">
                         <label for="course3" class="col-sm-3 col-form-label"> <h5>Course 报名课程 1 *</h5>  </label>
                             <div class="col-sm-4">
@@ -305,7 +289,6 @@
                             </div>
                         </div>
                 
-                        <!-- course 2  -->
                         <div class="form-group row d-flex justify-content-center">
                             <label for="course2" class="col-sm-3 col-form-label"> <h5>Course 报名课程 2 (optional)</h5> </label>
                             <div class="col-sm-4">
@@ -342,7 +325,6 @@
                             </div>
                         </div>
                 
-                        <!-- course 3  -->
                         <div class="form-group row d-flex justify-content-center">
                             <label for="course3" class="col-sm-3 col-form-label"> <h5>Course 报名课程 3 (optional)</h5>  </label>
                             <div class="col-sm-4">
@@ -388,16 +370,16 @@
             </div>
         
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact section-->
-    <section class="page-section bg-light" id="contact">
+    <section class="page-section" id="contact">
 
         <div class="container">
 
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h2 class="text-center tt">CONTACT US</h2>
+                    <h2 class="text-center tt" data-aos="slide-right">CONTACT US</h2>
                     <hr class="divider my-4" />
                     <br>
                 </div>
@@ -476,4 +458,9 @@
 
 
     </body>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </html>

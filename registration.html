@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Earnest Education - 知行教育</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://src-earnest-education.s3-us-west-2.amazonaws.com/title-logo.JPG" />
+        
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://kit.fontawesome.com/b89ede4b80.js" crossorigin="anonymous"></script>
+
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap" rel="stylesheet">
+
+        <!-- Third party plugin CSS-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        
+        <!-- CSS Link  -->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/video.css">
+        <link rel="stylesheet" href="css/map.css">
+        <link rel="stylesheet" href="css/chao.css">
+        <link rel="stylesheet" href="css/sub.css">
+
+        <script defer src="./App.js"></script>
+    </head>
+
+
+    <body>
+        
+        <div id="navigationComponent"></div>
+
+       <section class="page-section bg-light">
+        <div class="container col-lg-12">
+            <h2 class="text-center tt" data-aos="slide-right">ONLINE REGISTRATION</h2>
+            <h2 class="text-center tt" data-aos="slide-left">知行教育 - 在线报名表</h2>
+            <hr class="divider my-4" />
+            <form name='registration' method="post" netlify>
+
+                    <div class="form-group row d-flex justify-content-center">
+                        <label for="name" required class="col-sm-3 col-form-label"> <h5>Name 学生姓名 *</h5> </label>
+                        <div class="col-sm-3">
+                        <input class="form-control" required name="name">
+                        </div>
+                    </div>
+
+                    <!-- Gender  -->
+                    <div class="form-group row d-flex justify-content-center">
+                        <label for="grade" class="col-sm-3 col-form-label"> <h5>Gender 学生性别 *</h5>
+                            </label>
+                        <div class="col-sm-3">
+                            <select class="form-control" name="grade" required>
+                                <option selected="selected" hidden="hidden"></option>
+                                <option>男 Male</option>
+                                <option>女 Female</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Grade  -->
+                    <div class="form-group row d-flex justify-content-center">
+                        <label for="grade" class="col-sm-3 col-form-label">
+                            <h5>Grade 学生年级 *</h5>
+                        </label>
+                        <div class="col-sm-3">
+                        <select class="form-control" name="grade" required>
+                            <option selected="selected" hidden="hidden"></option>
+                            <option>Pre-K</option>
+                            <option>K</option>
+                            <option>G1</option>
+                            <option>G2</option>
+                            <option>G3</option>
+                            <option>G4</option>
+                            <option>G5</option>
+                            <option>G6</option>
+                            <option>G7</option>
+                            <option>G8</option>
+                            <option>G9</option>
+                            <option>G10</option>
+                            <option>G11</option>
+                            <option>G12</option>
+                            <option>Undergraduate</option>
+                            <option>Adult</option>
+                        </select>
+                        </div>
+                    </div>
+        
+                    <!-- EMAIL -->
+                    <!-- <div class="form-group row d-flex justify-content-center">
+                        <label for="email" class="col-sm-3 col-form-label"> <h5>Email 电子邮箱 *</h5> </label>
+                        <div class="col-sm-4">
+                        <input class="form-control" required type="email" name="email">
+                        </div>
+                    </div> -->
+            
+                    <div class="form-group row d-flex justify-content-center">
+                        <label for="course" class="col-sm-3 col-form-label"> 
+                            <h5>Course  所报课程 *</h5> 
+                        </label>
+                        <div class="col-sm-3">
+                        <input class="form-control" required type="text" name="course">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row d-flex justify-content-center">
+                        <label for="wechat" class="col-sm-3 col-form-label">
+                            <h5>Wechat 家长微信 / Line *</h5> 
+                        </label>
+                        <div class="col-sm-3">
+                            <input class="form-control" name="wechat" required>
+                        </div>
+                    </div>
+            
+                    <div class="form-group row d-flex justify-content-center">
+                        <label for="phone" class="col-sm-3 col-form-label">
+                            <h5>Phone 联系电话 *</h5> 
+                        </label>
+                        <div class="col-sm-3">
+                            <input class="form-control" required name="phone">
+                        </div>
+                    </div>
+            
+                    <div class="form-group row d-flex justify-content-center">
+                        <label for="city" class="col-sm-3 col-form-label">
+                                <h5>City 所住城市 *</h5>
+                        </label>
+                        <div class="col-sm-3">
+                        <select class="form-control" name="city" required>
+                            <option selected="selected" hidden="hidden"></option>
+                            <option>Vancouver 温哥华 - BC</option>
+                            <option>West Vancouver 西温哥华 - BC</option>
+                            <option>North Vancouver 北温哥华 - BC</option>
+                            <option>Richmond 列治文 - BC</option>
+                            <option>Burnaby 本拿比 - BC</option>
+                            <option>Surrey 素里 - BC</option>
+                            <option>Delta 三角洲 - BC</option>
+                            <option>Coquitlam 高贵林 - BC</option>
+                            <option>Coquitlam Port 高贵林港 - BC</option>
+                            <option>Maple Ridge 枫树岭 - BC</option>
+                            <option>Langley 兰里 - BC</option>
+                            <option>China 中国</option>
+                            <option>Other 其他</option>
+                        </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 comment">
+                        <h5>知行教育课程管理说明:</h5>
+                        <ol>
+                            <li>知行教育确保参与课程学生与其家长之个人讯息安全。</li>
+                            <li>课程中如需请假需提前一周前告知机构与老师进行安排可有一次补课机会 (一期最多不得超过两次) ;未提前一周告知视同放弃补课权力。</li>
+                            <li>交费后开课五天前可全部退款;开课后超过二日不足半期的則退還50%; 超过半期的不予退费。</li>
+                            <li>若因校方因素造成学生无法完成学习计划的情况,学校须予以退还剩余的课程费用。</li>
+                            <li>该课程开始前, 学生因不可抗拒的理由,如重大疾病、意外伤亡等正当理由提出退学退费申请时,学校当扣除学费5%手续费再予以退还剩余费用。但如因触犯国家法律等个人原因而无法继续上课者,则费用一律不予以退还</li>
+                            <li>课程进行当中,如因自然灾害、疫情、政府行为、社会异常事件不能参加学习者, 学校得以保留学费於后课时继续使用。</li>
+                        </ol>
+                        <lable>(以上条例最终解释权归知行教育所有)</lable>
+                    </div>
+
+                    <div class="col-sm-6 haveread mt-4">
+                        <input type="checkbox" class="form-check-input" id="check" required>
+                        <label class="form-check-label" for="check">
+                            I have read and agree to the terms of service.
+                            我已阅读并同意相关服务条款。
+                        </label>
+                    </div>
+                    
+                        
+
+                        <!-- <div class="form-group row d-flex justify-content-center">
+                        <label for="course3" class="col-sm-3 col-form-label"> <h5>Course 报名课程 1 *</h5>  </label>
+                            <div class="col-sm-4">
+                            <select class="form-control" name="course1">
+                                <option selected="selected" hidden="hidden"></option>
+                                <option>Codemao Level 1</option>
+                                <option>Codemao Level 2</option>
+                                <option>Codemao Level 3</option>
+                                <option>Python Level 1</option>
+                                <option>Python Level 2</option>
+                                <option>Python Level 3</option>
+                                <option>Introduction to Web Development</option>
+                                <option>Advanced Web Development</option>
+                                <option>Professional Web Development</option>
+                                <option>Fun with MATH</option>
+                                <option>Singapore with Level 1 - 2</option>
+                                <option>Singapore with Level 3 - 4</option>
+                                <option>Singapore with Level 5 - 6</option>
+                                <option>Math 8 Preview</option>
+                                <option>Math 10 Preview</option>
+                                <option>Precalculus 11</option>
+                                <option>Precalculus 12</option>
+                                <option>Calculus AB/BC</option>
+                                <option>Math Competition Training 1</option>
+                                <option>Math Competition Training 2</option>
+                                <option>詩詞鑒賞</option>
+                                <option>國學整本閱讀</option>
+                                <option>甲骨文藝術欣賞</option>
+                                <option>中文繪本幼童班</option>
+                                <option>中文繪本進階班</option>
+                                <option>精品基础华文</option>
+                                <option>汉语拼音+汉字启蒙</option>
+                            </select>
+                            </div>
+                        </div> -->
+                
+                    <!-- <div class="row col-sm-7 qrcode">
+                        <div class="col">
+                            <img src="https://src-earnest-education.s3-us-west-2.amazonaws.com/wechat.jpg" class="img-responsive" width="239px" height="315px" >
+                        </div>
+                        <div class="col">
+                            <img src="https://src-earnest-education.s3-us-west-2.amazonaws.com/wechat.jpg" class="img-responsive" width="239px" height="315px" >
+                        </div>
+                    </div> -->
+                        
+                
+                <div class="text-center">
+                    <button type="submit" class="btn btn-lg btn-success mt-5 p-3 col-sm-2">
+                        Submit
+                    </button>
+                </div>
+        
+            </form>
+        </div>      
+       </section>
+
+        <!-- Footer-->
+        <footer class="py-5">
+            <div class="container"><div class="text-center text-muted">Copyright © 2020 - Earnest Education Ltd.</div></div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+        
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

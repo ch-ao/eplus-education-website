@@ -31,6 +31,9 @@ const renderHead = () => {
         <link rel="stylesheet" href="css/map.css">
         <link rel="stylesheet" href="css/chao.css">
         <link rel="stylesheet" href="css/sub.css">
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     `;
 
     $('#headComponent').html(head);
@@ -77,7 +80,7 @@ const renderNavigation = () => {
                         <a class="nav-link js-scroll-trigger" href="index.html#gallery">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="index.html#register">REGISTRATION</a>
+                        <a class="nav-link js-scroll-trigger" href="registration.html">REGISTRATION</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="index.html#contact">CONTACT</a>
@@ -138,7 +141,7 @@ const renderCurriculum = () => {
     let html = `   
     <section class="page-section" id="course">
         <div class="container">
-            <h2 class="text-center tt">CURRICULUM</h2>
+            <h2 class="text-center tt" data-aos="slide-right">CURRICULUM</h2>
             <hr class="divider my-4" />
             <div class="row">`;
 
@@ -147,7 +150,7 @@ const renderCurriculum = () => {
                 <div class="col-lg-3 col-md-6 text-center">
                     <a href="${e.link}">
                         <div class="mt-5 hvr-fade curriculum">
-                            <img src=${e.img} width="200px" height="200px" class="img-fluid p-4" alt="">
+                            <img src=${e.img} width="200px" height="200px" class="img-fluid p-4" alt="" data-aos="flip-up">
                             <h3 class="h4 mb-2">${e.name}</h3>
                         </div>
                     </a>
@@ -218,9 +221,9 @@ const renderTeacher = () => {
 
     let html = 
     `    
-    <section class="page-section bg-light" id="teacher">
+    <section class="page-section" id="teacher">
     <div class="container">
-        <h2 class="text-center tt">TEACHERS</h2>
+        <h2 class="text-center tt" data-aos="slide-right">TEACHERS</h2>
         <hr class="divider my-4" />
         <div class="row align-items-center justify-content-md-center">
     `;
@@ -229,7 +232,7 @@ const renderTeacher = () => {
         html +=
         `                
         <div class="col-lg-3 teacher hvr-grow">
-            <img src=${e.img} class="img-fluid my-4" data-toggle="modal" data-target=${e.target}>
+            <img src=${e.img} data-aos="zoom-in" class="img-fluid my-4" data-toggle="modal" data-target=${e.target}>
         </div>`
     });
     
@@ -245,7 +248,7 @@ const renderTeacher = () => {
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img src=${e.img} class="img-responsive" width="468px" height="650px" >
+                        <img src=${e.img} class="img-responsive" width="468px" height="650px">
                     </div>
                 </div>
             </div>
