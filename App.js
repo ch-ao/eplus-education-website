@@ -63,10 +63,6 @@ const renderNavigation = () => {
                         <a class="dropdown-item" href="math.html">Math</a>
                         <a class="dropdown-item" href="english.html">English</a>
                         <a class="dropdown-item" href="chinese.html">Chinese</a>
-                        <a class="dropdown-item" href="speech.html">Bilingual Speech</a>
-                        <a class="dropdown-item" href="social.html">Social</a>
-                        <a class="dropdown-item" href="science.html">Science</a>
-                        <a class="dropdown-item" href="map.html">Music + Art + Performance</a>
                         </div>
                     </li>
     
@@ -107,35 +103,35 @@ const renderCurriculum = () => {
             name: 'Math'
         },
         {
-            link: 'chinese.html',
-            img: 'https://media.giphy.com/media/St9qmF1OvSE0lTV2y5/giphy.gif',
-            name: 'Chinese'
-        },
-        {
             link: 'english.html',
             img: 'https://media.giphy.com/media/VDNDNheLuIOfX76gxi/giphy.gif',
             name: 'English'
         },
         {
-            link: 'social.html',
-            img: 'https://media.giphy.com/media/fXEUiqDbxfQbWwLQh1/giphy.gif',
-            name: 'Social'
-        },
-        {
-            link: 'science.html',
-            img: 'https://media.giphy.com/media/KzWMBa9V3z8jHJCEC7/giphy.gif',
-            name: 'Science'
-        },
-        {
-            link: 'speech.html',
-            img: 'https://media.giphy.com/media/f4DmXx6APMvCWkvx9t/giphy.gif',
-            name: 'Bilingual Speech'
-        },
-        {
-            link: 'map.html',
-            img: 'https://media.giphy.com/media/iehsZQR0fyJxUmR00X/giphy.gif',
-            name: 'Art'
+            link: 'chinese.html',
+            img: 'https://media.giphy.com/media/St9qmF1OvSE0lTV2y5/giphy.gif',
+            name: 'Chinese'
         }
+        // {
+        //     link: 'social.html',
+        //     img: 'https://media.giphy.com/media/fXEUiqDbxfQbWwLQh1/giphy.gif',
+        //     name: 'Social'
+        // },
+        // {
+        //     link: 'science.html',
+        //     img: 'https://media.giphy.com/media/KzWMBa9V3z8jHJCEC7/giphy.gif',
+        //     name: 'Science'
+        // },
+        // {
+        //     link: 'speech.html',
+        //     img: 'https://media.giphy.com/media/f4DmXx6APMvCWkvx9t/giphy.gif',
+        //     name: 'Bilingual Speech'
+        // },
+        // {
+        //     link: 'map.html',
+        //     img: 'https://media.giphy.com/media/iehsZQR0fyJxUmR00X/giphy.gif',
+        //     name: 'Art'
+        // }
     ]
 
     let html = `   

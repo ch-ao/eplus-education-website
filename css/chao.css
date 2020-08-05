@@ -42,16 +42,12 @@ p {
     background-color: #fff !important; 
 }
 
-body {
+/* body {
     background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png") !important;
-}
+} */
 
 .comment, .haveread {
     margin: auto;
     font-size: 1.0em;
 }
 
-/* .haveread{
-    margin: auto;
-    margin-top: 1%;
-} */
