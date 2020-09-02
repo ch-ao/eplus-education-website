@@ -137,7 +137,7 @@ const renderCurriculum = () => {
     let html = `   
     <section class="page-section" id="course">
         <div class="container">
-            <h2 class="text-center tt" data-aos="slide-right">CURRICULUM</h2>
+            <h2 class="text-center tt" data-aos="fade-in">CURRICULUM</h2>
             <hr class="divider my-4" />
             <div class="row">`;
 
@@ -174,22 +174,6 @@ const renderTeacher = () => {
             target: '#Barbara'
         },
         {
-            img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Cindy.png',
-            target: '#Cindy'
-        },
-        {
-            img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Jane.png',
-            target: '#Jane'
-        },
-        {
-            img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Katrina.png',
-            target: '#Katrina'
-        },
-        {
-            img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Chao.png',
-            target: '#Chao'
-        },
-        {
             img: 'https://src-earnest-education.s3-us-west-2.amazonaws.com/teachers-images/Liying.jpeg',
             target: '#Liying'
         },
@@ -219,7 +203,7 @@ const renderTeacher = () => {
     `    
     <section class="page-section" id="teacher">
     <div class="container">
-        <h2 class="text-center tt" data-aos="slide-right">TEACHERS</h2>
+        <h2 class="text-center tt" data-aos="fade-in">TEACHERS</h2>
         <hr class="divider my-4" />
         <div class="row align-items-center justify-content-md-center">
     `;
